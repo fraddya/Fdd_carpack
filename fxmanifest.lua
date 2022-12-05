@@ -80,8 +80,8 @@ files {
 'data/Honda/fk8/*.meta',
 
 ----jeep----
---gladiator--
-'data/jeep/gladiator/*.meta',
+--jeepg--
+'data/jeep/jeepg/*.meta',
 
 ------Lambo-----------
 --lp700r--
@@ -527,12 +527,12 @@ data_file 'VEHICLE_VARIATION_FILE' 'data/Honda/fk8/carvariations.meta'
 data_file 'VEHICLE_LAYOUTS_FILE' 'data/Honda/fk8/vehiclelayouts.meta'
 
 --------jeep-----
---gladiator--
-data_file 'HANDLING_FILE' 'data/jeep/gladiator/handling.meta'
-data_file 'VEHICLE_METADATA_FILE' 'data/jeep/gladiator/vehicles.meta'
-data_file 'CARCOLS_FILE' 'data/jeep/gladiator/carcols.meta'
-data_file 'VEHICLE_VARIATION_FILE' 'data/jeep/gladiator/carvariations.meta'
-data_file 'VEHICLE_LAYOUTS_FILE' 'data/jeep/gladiator/vehiclelayouts.meta'
+--jeepg--
+data_file 'HANDLING_FILE' 'data/jeep/jeepg/handling.meta'
+data_file 'VEHICLE_METADATA_FILE' 'data/jeep/jeepg/vehicles.meta'
+data_file 'CARCOLS_FILE' 'data/jeep/jeepg/carcols.meta'
+data_file 'VEHICLE_VARIATION_FILE' 'data/jeep/jeepg/carvariations.meta'
+data_file 'VEHICLE_LAYOUTS_FILE' 'data/jeep/jeepg/vehiclelayouts.meta'
 
 ------Lambo--------------
 --lp700r---
