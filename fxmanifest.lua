@@ -128,6 +128,7 @@ files {
 -----Mistubishi----------
 ---evo9--
 'data/Mitsubishi/evo9/*.meta',
+'data/Mitsubishi/evolution/*.meta',
 
 ------Nissan------------
 ---skyline----
@@ -184,12 +185,12 @@ files {
 'v_sound/skyline/audioconfig/*.dat151.rel',
 'v_sound/skyline/audioconfig/*.dat54.rel',
 'v_sound/skyline/sfx/dlc_bnr34ffeng/*.awc',
-'v_sound/Rocket/audioconfig/mercedesm113_game.dat151.rel',
-'v_sound/Rocket/audioconfig/mercedesm155_game.dat151.rel',
-'v_sound/Rocket/audioconfig/mercedesm113_sounds.dat54.rel',
-'v_sound/Rocket/audioconfig/mercedesm155_sounds.dat54.rel',
-'v_sound/Rocket/sfx/dlc_mercedesm113/*.awc',
-'v_sound/Rocket/sfx/dlc_mercedesm115/*.awc',
+'v_sound/rocket/audioconfig/mercedesm113_game.dat151.rel',
+'v_sound/rocket/audioconfig/mercedesm113_sounds.dat54.rel',
+'v_sound/rocket/audioconfig/mercedesm155_game.dat151.rel',
+'v_sound/rocket/audioconfig/mercedesm155_sounds.dat54.rel',
+'v_sound/rocket/sfx/dlc_mercedesm113/*.awc',
+'v_sound/rocket/sfx/dlc_mercedesm115/*.awc',
 'v_sound/aston59v12/audioconfig/*.dat151.rel',
 'v_sound/aston59v12/audioconfig/*.dat54.rel',
 'v_sound/aston59v12/sfx/dlc_aston59v12/*.awc',
@@ -348,6 +349,10 @@ files {
 'v_sound/wrxrllyeng/audioconfig/wrxrllyeng_sounds.dat54.rel',
 'v_sound/wrxrllyeng/sfx/dlc_wrxrllyeng/wrxrllyeng.awc',
 'v_sound/wrxrllyeng/sfx/dlc_wrxrllyeng/wrxrllyeng_npc.awc',
+-- 'v_sound/evolution/audioconfig/*.dat151.rel',
+-- 'v_sound/evolution/audioconfig/*.dat54.rel',
+-- 'v_sound/evolution/audioconfig/*.dat10.rel',
+-- 'v_sound/evolution/sfx/**/*.awc',
 }
 
 -------Alfa_Romeo-----
@@ -653,6 +658,12 @@ data_file 'CARCOLS_FILE' 'data/Mitsubishi/evo9/carcols.meta'
 data_file 'VEHICLE_VARIATION_FILE' 'data/Mitsubishi/evo9/carvariations.meta'
 data_file 'VEHICLE_LAYOUTS_FILE' 'data/Mitsubishi/evo9/vehiclelayouts.meta'
 
+-----­-evolution---------
+data_file 'HANDLING_FILE' 'data/Mitsubishi/evolution/handling.meta'
+data_file 'VEHICLE_METADATA_FILE' 'data/Mitsubishi/evolution/vehicles.meta'
+data_file 'CARCOLS_FILE' 'data/Mitsubishi/evolution/carcols.meta'
+data_file 'VEHICLE_VARIATION_FILE' 'data/Mitsubishi/evolution/carvariations.meta'
+
 ------Nissan------------
 ---skyline----
 data_file 'HANDLING_FILE' 'data/Nissan/skyline/handling.meta'
@@ -768,16 +779,16 @@ data_file 'AUDIO_SYNTHDATA' 'v_sound/evo9/audioconfig/ta011mit4g63_amp.dat'
 data_file 'AUDIO_GAMEDATA' 'v_sound/evo9/audioconfig/ta011mit4g63_game.dat'
 data_file 'AUDIO_SOUNDDATA' 'v_sound/evo9/audioconfig/ta011mit4g63_sounds.dat'
 data_file 'AUDIO_WAVEPACK' 'v_sound/evo9/sfx/dlc_ta011mit4g63'
-data_file 'AUDIO_SYNTHDATA' 'v_sound/skyline/audioconfig/bnr34ffeng_amp.dat'
-data_file 'AUDIO_GAMEDATA' 'v_sound/skyline/audioconfig/bnr34ffeng_game.dat'
-data_file 'AUDIO_SOUNDDATA' 'v_sound/skyline/audioconfig/bnr34ffeng_sounds.dat'
-data_file 'AUDIO_WAVEPACK' 'v_sound/skyline/sfx/dlc_bnr34ffeng'
-data_file 'AUDIO_GAMEDATA' 'v_sound/Rocket/audioconfig/mercedesm113_game.dat'
-data_file 'AUDIO_SOUNDDATA' 'v_sound/Rocket/audioconfig/mercedesm113_sounds.dat'
-data_file 'AUDIO_WAVEPACK' 'v_sound/Rocket/sfx/dlc_mercedesm113'
-data_file 'AUDIO_GAMEDATA' 'v_sound/Rocket/audioconfig/mercedesm155_game.dat'
-data_file 'AUDIO_SOUNDDATA' 'v_sound/Rocket/audioconfig/mercedesm155_sounds.dat'
-data_file 'AUDIO_WAVEPACK' 'v_sound/Rocket/sfx/dlc_mercedesm155'
+-- data_file 'AUDIO_SYNTHDATA' 'v_sound/skyline/audioconfig/bnr34ffeng_amp.dat'
+-- data_file 'AUDIO_GAMEDATA' 'v_sound/skyline/audioconfig/bnr34ffeng_game.dat'
+-- data_file 'AUDIO_SOUNDDATA' 'v_sound/skyline/audioconfig/bnr34ffeng_sounds.dat'
+-- data_file 'AUDIO_WAVEPACK' 'v_sound/skyline/sfx/dlc_bnr34ffeng'
+data_file 'AUDIO_GAMEDATA' 'v_sound/rocket/audioconfig/mercedesm113_game.dat'
+data_file 'AUDIO_SOUNDDATA' 'v_sound/rocket/audioconfig/mercedesm113_sounds.dat'
+data_file 'AUDIO_WAVEPACK' 'v_sound/rocket/sfx/dlc_mercedesm113'
+data_file 'AUDIO_GAMEDATA' 'v_sound/rocket/audioconfig/mercedesm155_game.dat'
+data_file 'AUDIO_SOUNDDATA' 'v_sound/rocket/audioconfig/mercedesm155_sounds.dat'
+data_file 'AUDIO_WAVEPACK' 'v_sound/rocket/sfx/dlc_mercedesm155'
 data_file 'AUDIO_GAMEDATA' 'v_sound/aston59v12/audioconfig/aston59v12_game.dat'
 data_file 'AUDIO_SOUNDDATA' 'v_sound/aston59v12/audioconfig/aston59v12_sounds.dat'
 data_file 'AUDIO_WAVEPACK' 'v_sound/aston59v12/sfx/dlc_aston59v12'
@@ -909,6 +920,10 @@ data_file 'AUDIO_SYNTHDATA' 'v_sound/wrxrllyeng/audioconfig/wrxrllyeng_amp.dat'
 data_file 'AUDIO_GAMEDATA' 'v_sound/wrxrllyeng/audioconfig/wrxrllyeng_game.dat'
 data_file 'AUDIO_SOUNDDATA' 'v_sound/wrxrllyeng/audioconfig/wrxrllyeng_sounds.dat'
 data_file 'AUDIO_WAVEPACK' 'v_sound/wrxrllyeng/sfx/dlc_wrxrllyeng'
+-- data_file "AUDIO_SYNTHDATA" 'v_sound/evolution/audioconfig/kc61evo10rally_amp.dat'
+-- data_file "AUDIO_GAMEDATA" 'v_sound/evolution/audioconfig/kc61evo10rally_game.dat'
+-- data_file "AUDIO_SOUNDDATA" 'v_sound/evolution/audioconfig/kc61evo10rally_sounds.dat'
+-- data_file "AUDIO_WAVEPACK" 'v_sound/evolution/sfx/dlc_kc61evo10rally'
 
 -- client_scripts {
 --     'vehicle_names.lua',
